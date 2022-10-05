@@ -1,0 +1,171 @@
+:root {
+    --background-color: black;
+}
+
+* {
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+
+/* HEAD */
+
+#container.ytd-masthead {
+    background: #1c1c1c !important;
+}
+
+/* SEARCH */
+
+#center.ytd-masthead {
+    background-color: #0e0e0e !important;
+    background: #0e0e0e !important;
+    border-radius: 8px;
+}
+
+ytd-searchbox,
+#container.ytd-searchbox {
+    background-color: transparent !important;
+    background: transparent !important;
+
+}
+
+ytd-searchbox {
+    border: none !important;
+}
+
+ytd-searchbox.ytd-masthead {
+    margin-left: 0 !important;
+}
+
+/* #search-icon.ytd-searchbox {
+    display: none !important;
+} */
+
+#container.ytd-searchbox {
+    border: none !important;
+}
+
+input#search {
+    font-size: 24px !important;
+    font-weight: bold !important;
+}
+
+button#search-icon-legacy {
+    display: none !important;
+}
+
+#voice-search-button.ytd-masthead {
+    background-color: transparent !important;
+}
+
+/* AUTOCOMPLETE */
+
+.sbsb_a {
+    background-color: #0e0e0e !important;
+    outline: 1px solid #1c1c1c !important;
+    border-radius: 8px !important;
+}
+
+.sbdd_b {
+    background: transparent !important;
+    border: none !important;
+}
+
+.sbsb_c {
+    transition: 0.3s ease !important;
+}
+
+.sbsb_d {
+    font-size: 24px !important;
+    border-radius: 8px;
+    background-color: #1c1c1c !important;
+    transition: 0.3s ease !important;
+}
+
+.sbsb_b li * {
+    color: #f4f4f4 !important;
+}
+
+ul.sbsb_b li:last-child {
+    /* report search predictions */
+    display: none !important;
+}
+
+/* IRON BAR (CHIPS) */
+
+ytd-feed-filter-chip-bar-renderer {
+    display: none !important;
+}
+
+iron-selector#chips {
+    display: none !important;
+}
+
+#chips-wrapper {
+    background: #000 !important;
+}
+
+yt-chip-cloud-chip-renderer {
+    color: #e0e0e0 !important;
+    background: transparent !important;
+    border-color: transparent !important;
+}
+
+yt-chip-cloud-chip-renderer.iron-selected {
+    height: 24px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #e0e0e0 !important;
+}
+
+yt-chip-cloud-chip-renderer.iron-selected * {
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #161616;
+}
+
+
+#right-arrow {
+    display: none !important;
+}
+
+#left-arrow {
+    display: none !important;
+}
+
+/* SIDE MENU */
+
+#guide-content.ytd-app {
+    background: #0e0e0e !important;
+}
+
+/* VIDEO GRID */
+
+ytd-thumbnail img {
+    background: transparent !important;
+}
+
+ytd-thumbnail #thumbnail.ytd-thumbnail {
+    border-radius: 12px;
+    background: #0e0e0e !important;
+    background-color: #0e0e0e !important;
+    transition: 0.3s ease;
+}
+
+ytd-rich-grid-media[mini-mode] #video-title.ytd-rich-grid-media {
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#page-manager.ytd-app {
+    background-color: #0e0e0e !important;
+}
+
+/* VIDEO THUMBNAIL */
+yt-formatted-string {
+    font-weight: normal !important;
+}
+
+/* WHILE VIDEO IS PLAYING */
+
+/* VIDEO */
+
+video {
+    border-radius: 15px !important;
+}
